@@ -37,6 +37,7 @@ The test results are saved in a data frame called `result_df` with the following
 
 - **Programming Language**: R
 - **Libraries**: `tidyverse` for data manipulation
+- **Libraries**: `ggplot` for plotting
 - **Data Source**: FIFA World Cup match data from official datasets
 
 ## Usage
