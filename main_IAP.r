@@ -32,7 +32,7 @@ ggplot(men, aes(x = total_score), col = "blue") +
 geom_histogram(bins = 8)
 
 # wilcoxon test for non-parametric two sample test
-a = wilcox.test(men$total_score, women$total_score, alternative = "two.sided")
+a = wilcox.test(men$total_score, women$total_score, alternative = "less")
 
 #Creating the result data frame based on the significance level
 result = a$p.value
