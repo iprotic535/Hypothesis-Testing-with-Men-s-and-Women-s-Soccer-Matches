@@ -44,7 +44,6 @@ The test results are saved in a data frame called `result_df` with the following
 
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/yourusername/your-repo-name.git
+   [git clone https://github.com/yourusername/your-repo-name.git](https://github.com/iprotic535/Hypothesis-Testing-with-Men-s-and-Women-s-Soccer-Matches)
 
 
-This README provides clear sections for project understanding and usage, formatted for easy reading on GitHub or any markdown viewer. Adjust the repository name and any specific script details as needed.
