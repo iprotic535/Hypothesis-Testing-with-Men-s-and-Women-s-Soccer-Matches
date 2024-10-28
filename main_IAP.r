@@ -9,7 +9,7 @@ men = read.csv("men_results.csv")
 
 #filtering of women data
 women = women %>%
-filter(as.Date(date) >= "2002-01-01",  tournament == "FIFA World Cup") %>%
+filter(as.Date(date) > "2002-01-01",  tournament == "FIFA World Cup") %>%
 mutate(total_score = home_score+away_score)
 head(women)
 #calculation of bin size for women data using Sturges’ Rule
@@ -21,7 +21,7 @@ geom_histogram(bins = 13)
 
 #filtering of men data
 men = men %>%
-filter(as.Date(date) >= "2002-01-01",  tournament == "FIFA World Cup") %>%
+filter(as.Date(date) > "2002-01-01",  tournament == "FIFA World Cup") %>%
 mutate(total_score = home_score+away_score)
 head(men)
 #calculation of bin size for men data using Sturges’ Rule
