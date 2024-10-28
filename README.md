@@ -11,7 +11,7 @@ This analysis applies a hypothesis test to compare the average goals scored in m
 - **Null Hypothesis (\(H_0\))**: The mean number of goals scored in women's matches is equal to that in men's matches.
 - **Alternative Hypothesis (\(H_1\))**: The mean number of goals scored in women's matches is different from that in men's matches.
 
-The test is conducted with a **10% significance level** (\(\alpha = 0.10\)).
+The test is conducted with a **10% significance level** (\(alpha = 0.10\)).
 
 ## Methodology
 
